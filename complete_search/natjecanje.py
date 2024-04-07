@@ -4,8 +4,7 @@ def verifying_neighborhood(me, neighbor):
 def helping_the_neighborhood(me, neighbor,counter):
     me["has_reserve_kayak"] = False
     neighbor["is_damaged_kayak"] = False
-    counter -= 1
-    return counter
+    return counter - 1
         
 _input = [int(i) for i in input().split()]
 n_count = _input[0]
